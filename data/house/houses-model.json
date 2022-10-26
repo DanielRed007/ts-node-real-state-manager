@@ -1,0 +1,22 @@
+{
+    "_id":"{{uuid}}",
+    "address":{
+        "street":"{{street}}",
+        "postcode":"{{postcode}}"
+    },
+    "floors": "{{float 1 5 0}}",
+    "cost": "{{float 100000 5000000 0}}",
+    "description": "{{words 21}}",
+    "rooms":"{{float 1 14 0}}",
+    "pool": "{{boolean 0.15}}",
+    "backyard": "{{boolean 0.50}}",
+    "currency": "USD",
+    "city":"{{city}}",
+    "owner": {
+        "name":"{{name}} {{surname}}",
+        "phone": "{{tel}}",
+        "email": "{{email}}"
+    },
+    "visits":"{{uuid}}",
+    "sellers":"{{uuid}}"
+}
