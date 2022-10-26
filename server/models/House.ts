@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const ProductSchema = new mongoose.Schema({
+const HouseSchema = new mongoose.Schema({
     _id: mongoose.Schema.Types.ObjectId,
     address: {
         street: String,
@@ -23,4 +23,4 @@ const ProductSchema = new mongoose.Schema({
     sellers: mongoose.Schema.Types.ObjectId
 });
 
-export default mongoose.model('Product', ProductSchema);
+export default mongoose.model('House', HouseSchema);

@@ -8,7 +8,7 @@
     "cost": "{{float 100000 5000000 0}}",
     "description": "{{words 21}}",
     "rooms":"{{float 1 14 0}}",
-    "pool": "{{boolean 0.15}}",
+    "pool": "{{boolean 0.50}}",
     "backyard": "{{boolean 0.50}}",
     "currency": "USD",
     "city":"{{city}}",
